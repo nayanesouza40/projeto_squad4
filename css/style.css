@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    width:100%;
+    height:60px;
+    background-color:rgb(80, 53, 201);
+    position:absolute;
+}
+header div{
+    width:70%;
+    left:0;
+    right:0;
+    margin:auto;
+}
+#menu{
+    float:left;
+}
+#iconLogin{
+    float:right;
+}
+#login{
+    display:none;
+    position:fixed;
+    background:white;
+    top:70px;
+    right:15%;
+    width:100px;
+    height:100px;
+}
+
+#backgroundFoto{
+    width:100%;
+    height:90%;
+    object-fit: cover;
+    display: flex;
+}
+    #backgroundFoto img{
+        width:100%;
+    }
+    #backgroundFoto #tituloIndex{
+        position:absolute;
+        margin-top:auto;
+        margin-bottom: auto;
+    }
+#infosIndex{
+    display:flex;
+    justify-content: space-between;
+    width:70%;
+    right:0;
+    left:0;
+    margin:auto;
+    margin-top:60px;
+}
+    #infosIndex section{
+        width:25%;
+        text-align:center;
+    }
+    #botaoSaibaMais{
+        text-align:center;
+        margin:20px;
+    }
+#inscIndex{
+    width:70%;
+    right:0;
+    left:0;
+    margin:auto;
+    margin-top:60px;
+} 
+    #inscIndex img{
+        height:100%;
+        max-width:50%;
+        float:left;
+        object-fit: cover;
+    }
+    #inscIndex div{
+        float:right;
+        width:50%;
+        padding-left:20px;
+    }
+#muleta{
+    clear:both;
+}
+footer{
+    width:100%;
+    height:60px;
+    background-color:rgb(80, 53, 201);
+    margin-top:60px;
+}
+#escuro{
+    display:none;
+    background-color:rgb(0, 0, 0, .5);
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    right:0;
+}
+#listaEspera{
+    background-color:white;
+    width:50%;
+    height:80%;
+    position:fixed;
+    top:0;right:0;left:0;bottom: 0;
+    margin:auto;
+}
