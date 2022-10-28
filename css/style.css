@@ -189,8 +189,12 @@ footer{
     position:fixed;
     top:0;right:0;left:0;bottom: 0;
     margin:auto;
-    padding:40px 100px;
+    padding:30px;
 }
+#listaEspera #botaoCep {
+    margin-top:32px;
+}
+
 #listaEspera div {
   margin-bottom: 10px;
 }
