@@ -1,26 +1,73 @@
- *{
+*{
     padding:0;
     margin:0;
 }
 header{
     width:100%;
     height: 120px;
-    background-color:#312165;
+    background-color:#27408B;
     position:absolute;
+}
+
+header .logo{
+    color: black;
+    font-size: 1px;
+    font-weight: bolder;
+    
+}
+
+header .logo i{
+    color:black;
+    
 }
 header div{
     width:70%;
     left:0;
     right:0;
     margin:auto;
+
 }
-#menu{
-    float:left;
+ /* este é o cabeçalho todas as configurações de posições das opções para os usuarios estão aqui*/
+
+header .logo{
+    color: black;
+    font-size: 1px;
+    font-weight: bolder;
+}
+
+header .logo i{
+    color:black;
+}
+
+header .cabeçalho-link {
+    cursor: pointer; 
+    gap: 3rem;
+    display: flex;
+    font-weight: 500;
+    border-radius: 5rem;
+    color:aliceblue;
+  
+}
+
+header .cabeçalho-link a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 4rem;
+    font-size: 1.7rem;
+}
+header .cabeçalho-link a.active, 
+header .cabeçalho-link a:hover {
+
+    color: rgb(206, 116, 179);
+    transition: 0.4s all;
+    border-radius: 20px;
+    
 }
 
 button {
-    background-color: #C0E179;
+    background-color: #F39745;
     color: rgb(0, 0, 0); 
+    padding-left: 20px;
     padding: 5px;
     width: 150px;
     border-radius: 15px;
@@ -29,19 +76,21 @@ button {
 } /* margem e bordas modificadas, para possuir um formato mais oval, incluindo aqui também a cor preta para as letras*/
 
     button:hover{
-        background-color: rgb(55, 83, 0);
-        color:#C0E179;
+        background-color: rgb(108, 51, 0);
+        color:#F39745;
     } /* quando o usuario passar o cursor em cima de cada opção, ele mudará de cor*/
 
     .logo {/*para pode adicionar a logo do meu site*/
         height: 120px;
         width: 50px;
-        border-left: 200px;
-        border: 10px flex rgb(0, 0, 0);
+        border-left: 100px;
+        border: 10px solid rgb(0, 0, 0);
         border-radius: 15px;
-        padding-right: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
         display: inline-flex;
         justify-content: center;
+        text-align: center;
         align-items: center;
         cursor: pointer;
     
@@ -77,16 +126,38 @@ button {
         header .icones i:hover,
         header .icones a:hover {
             color: rgb(196, 193, 193);
-            background:rgb(86, 15, 128);
+            background:#05054C;
             transform: rotate(360deg);
             border-radius: 20px;
             transition: 0.5s all;
     
         }
     
+.content .icones{
+    background:rgb(255, 12, 12);
+    border-radius: .5rem;
+    border:.1rem solid rgb(218, 2, 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    flex:1 1 17rem;
+    padding:1.5rem 1rem;
+}
 
+.content .icones-container .icons i{
+    font-size: 2.5rem;
+    color:var(rgb(207, 24, 24));
+}
+
+.sobre .row .content .icones-container .icones span{
+    font-size: 1.5rem;
+    color:var(black);
+}
 #iconLogin{
     float:right;
+    color: rgb(196, 193, 193);
+    background:#05054C;
 }
 #login{
     display:none;
@@ -153,7 +224,7 @@ button {
 footer{
     width:100%;
     height:60px;
-    background-color:#E9A686;
+    background-color:#F3EF45;
     margin-top:60px;
 }
 #escuro{
