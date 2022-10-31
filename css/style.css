@@ -226,24 +226,29 @@ footer{
     right:0;
 }
 #listaEspera{
-    background-color:white;
+    background-color:#F3EF45;
     position:fixed;
     top:0;right:0;left:0;bottom: 0;
     margin:auto;
-    padding:30px;
 }
 #listaEspera #botaoCep {
     margin-top:32px;
 }
 
+#listaEspera form {
+    padding:30px;
+    background: white;
+}
+
 #listaEspera div {
   margin-bottom: 10px;
 }
-#listaEspera p, #listaEspera h3  {
+#listaEspera h3  {
   text-align: center;
+  margin-top:25px;
 }
 #listaEspera p {
-  margin-bottom: 40px;
+  text-align: center;
 }
 #listaEspera .btn-outline-info {
   color:#000000;
@@ -254,18 +259,26 @@ float:right;
 top:10px;
 }
 #ok{
-  position: absolute;
+  position: fixed;
   background-color:#ffffff;
   width:350px;
+  height:180px;
   right:0;
   left:0;
-  top:15%;
+  top:0;
+bottom: 0;
   margin:auto;
   text-align:center;
   padding:30px;
+
 }
-#ok h3 {
-    margin-bottom: 20px;
+#invalido {
+        text-transform: uppercase;
+
+}
+#fecharListaEspera{
+    margin-top:20px;
+    margin-right: 20px;
 }
 
 /*fim lista de espera*/
