@@ -282,7 +282,7 @@ header .icones {
    
 }
 header .logo {
-    display: list-item;
+    display: auto;
     max-width: 200px;
     margin: auto;
 }
