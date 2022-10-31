@@ -1,3 +1,5 @@
+$('#ok').css('display','none')
+
 var botaoListaEspera = document.querySelector('#botaoListaEspera');
 var fecharListaEspera = document.querySelector('#fecharListaEspera');
 
@@ -8,8 +10,6 @@ botaoListaEspera.addEventListener('click',function(){
 fecharListaEspera.addEventListener('click',function(){
     $('#escuro').css('display','none')
 })
-
-$('#ok').css('display','none')
 
 //API ViaCEP
 
@@ -53,10 +53,10 @@ function consultarCep() {
     }
 
     request.send();
-    rua.value = ''; // Limpa o campo
-    bairro.value = ''; // Limpa o campo
-    cidade.value = ''; // Limpa o campo
-    estado.value = ''; // Limpa o campo
+    rua.value = ''; 
+    bairro.value = '';
+    cidade.value = ''; 
+    estado.value = '';
     invalido.innerHTML = ''
 
 }
