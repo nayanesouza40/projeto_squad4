@@ -57,31 +57,6 @@ header .cabeçalho-link a{
     border-radius: 4rem;
     font-size: 1.7rem;
 }
-.card{
-   background-image: linear-gradient(45deg,#007FBF, #005580, #00AAFF, #002A40, #0198E6);
-   padding: 20px;
-   margin: auto;
-   border-radius: 30px;
-   box-shadow: 10px 10px 10px 10px rgb(0, 0, 0);
-    
-    }
-    .card:hover{
-    box-shadow: 10px;
-    color: black;
-    
-    }
-    .card-title{
-        font-family: 'Vyper Bold Expanded', sans-serif;
-        font-size: 26px;
-        color: #DAA520;
-    }
-    .card-text{  
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    .list-group-item{
-        font-size: 18px;
-    font-family: 'Stencil Army WW I', sans-serif;
-    }
 
 button {
     background-color: #FFCC15;
@@ -89,7 +64,6 @@ button {
     padding: 5px;
     width: 150px;
     border-radius: 15px;
-    font-family: 'MrRobot', sans-serif;                                 
     font-size: 15px;
     cursor: pointer;
 } /* margem e bordas modificadas, para possuir um formato mais oval, incluindo aqui também a cor preta para as letras*/
@@ -115,10 +89,8 @@ button {
     }
 
     .icones {
-        cursor: pointer; 
         height: 100px;
         cursor: pointer; 
-        font-weight: 500;
         gap: 1rem;
         display: flex;
         border-radius: 5rem;
@@ -212,7 +184,6 @@ button {
         max-width:50%;
         float:left;
         object-fit: cover;
-        border-radius: 10px;
     }
     #inscIndex div{
         float:right;
@@ -257,7 +228,7 @@ footer{
     right:0;
 }
 #listaEspera{
-    background-color:#8B8989;
+    background-color:#F3EF45;
     position:fixed;
     top:0;right:0;left:0;bottom: 0;
     margin:auto;
@@ -269,12 +240,6 @@ footer{
 #listaEspera form {
     padding:30px;
     background: white;
-}
-
-#tituloEspera {
-   font-family: 'Failed Attempt', sans-serif;
-   font-size: 46px;
-   color: #00FFFF
 }
 
 #listaEspera div {
@@ -303,7 +268,7 @@ top:10px;
   right:0;
   left:0;
   top:0;
-  bottom: 0;
+bottom: 0;
   margin:auto;
   text-align:center;
   padding:30px;
