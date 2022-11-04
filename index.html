@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.cdnfonts.com/css/stencil-army-ww-i" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/failed-attempt" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/vyper" rel="stylesheet">   
+    <link href="https://fonts.cdnfonts.com/css/mrrobot" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <script defer src="js/jquery.js"></script>
     <script defer src="js/script.js"></script>
+    <script defer src="js/login.js"></script>
     <script defer src="js/script-form-list.js"></script>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -25,7 +30,7 @@
             <a href='item1.html'><button>Base</button></a>
             <a href='item1.html'><button>Sobre</button></a>
             <a href='item1.html'><button>Contatos</button></a>
-            <a href='item1.html'><button>Planos</button></a>
+            <a href='infosIndex'><button>Planos</button></a>
             
               <div class="icones">
                  <a id='iconLogin' class="fa-sharp fa-solid fa-users-line"></a>
@@ -49,13 +54,13 @@
             <div class="card" style="width: 18rem;">
               <img src="imagens/free_preço.png" class="card-img-top" alt="planos">
               <div class="card-body">
-                <h2 class="card-title">Card title</h2>
+                <h2 class="card-title">R$00,00 zero despesas</h2>
                 <p class="card-text">Uma versão para todos que não podem usufruir dos nossos planos pagos.</p>
               </div> 
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">Auxilio de nossa equipe por 1 semana</li>
+                <li class="list-group-item">App inteligente por 1 mês</li>
+                <li class="list-group-item">Versão unica, sem novos suportes previstos</li>
               </ul>
               </div>
             </section> 
@@ -64,13 +69,13 @@
                 <div class="card" style="width: 18rem;">
                   <img src="imagens/complete_preço.png" class="card-img-top" alt="planos">
                   <div class="card-body">
-                    <h2 class="card-title">Card title</h2>
-                    <p class="card-text">Uma versão basica de nosso aplicativo, com funções a mais que iram melhorar ainda mais sua experiencia.</p>
+                    <h2 class="card-title">R$33,90 mensais</h2>
+                    <p class="card-text">Uma versão padrão de nosso aplicativo, com funções a mais que iram melhorar ainda mais sua experiencia.</p>
                   </div>
                   <ul class="list-group list-group-flush">
-                    <li class="list-group-item">An item</li>
-                    <li class="list-group-item">A second item</li>
-                    <li class="list-group-item">A third item</li>
+                    <li class="list-group-item">Auxilio de nossa equipe</li>
+                    <li class="list-group-item">Kit de teclado e Mouse</li>
+                    <li class="list-group-item">App inteligente de correção automatica</li>
                   </ul>
                   </div>
               </section>
@@ -79,13 +84,13 @@
                   <div class="card" style="width: 18rem;">
               <img src="imagens/platinun_preço.png" class="card-img-top" alt="planos">
               <div class="card-body">
-                <h2 class="card-title">Card title</h2>
-                <p class="card-text">Infomações sobre o produto</p>
+                <h2 class="card-title">R$66,90 mensais</h2>
+                <p class="card-text">Uma versão avançada de nosso aplicativo, onde você pode desfrutar de todos os beneficios anterios e muito mais.</p>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-                <li class="list-group-item">A second item</li>
-                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">Auxilia da IA(PS-77) embutida do app </li>
+                <li class="list-group-item">Plano de internet embutido</li>
+                <li class="list-group-item">Suporte para atualizações garantido permanentemente</li>
               </ul>
               </div>
               </section>
@@ -96,10 +101,8 @@
         <img src='imagens/istockphoto.jpg'>
         <div>
         <h2>Convocação para lista de espera</h2>
-        <p>formulário para cadastro: CADASTRE-SE E GARANTA O SEU <strong>Patch Studio</strong> AGORA!
-            
-        </p>
-        <a id='botaoListaEspera'><button>inscreva-se aqui</button></a>
+        <p>formulário para cadastro: CADASTRE-SE E GARANTA O SEU <strong>Patch Studio</strong> AGORA!</p>       
+          <a id='botaoListaEspera'><button>inscreva-se aqui</button></a>
         </div>
     </section>
     <div id='muleta'></div>
@@ -110,8 +113,8 @@
         <div class='container' id='listaEspera'>
             <a id='fecharListaEspera'>X</a>
             
-            <h3 id='tituloEspera'>Lorem ipsum dolor sit amet</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <h3 id='tituloEspera'>Lista de Espera</h3>
+            <p>Insira aqui os dados solicitados para a inscrição</p>
             
             <form class="row text-left">
             
