@@ -285,6 +285,30 @@ bottom: 0;
 
 /*fim lista de espera*/
 
+#sobreIndex {
+
+  position: fixed;
+
+  color:#ffffff;
+
+  width:60%;
+
+  text-align:justify;
+
+  line-height:30px;
+
+}
+
+#backgroundFoto{
+
+  display:flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
 
 
 @media (max-width:768px) {
