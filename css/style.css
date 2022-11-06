@@ -1,57 +1,60 @@
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
 }
-header{
-    width:100%;
+
+header {
+    width: 100%;
     height: 120px;
-    background-color:#010138;
-    position:absolute;
+    background-color: #010138;
+    position: absolute;
 }
 
-header .logo{
+header .logo {
     color: black;
     font-size: 1px;
     font-weight: bolder;
-    
-}
-
-header .logo i{
-    color:black;
-    
-}
-header div{
-    width:70%;
-    left:0;
-    right:0;
-    margin:auto;
 
 }
- /* este é o cabeçalho todas as configurações de posições das opções para os usuarios estão aqui*/
 
-header .logo{
+header .logo i {
+    color: black;
+
+}
+
+header div {
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+/* este é o cabeçalho todas as configurações de posições das opções para os usuarios estão aqui*/
+
+header .logo {
     color: black;
     font-size: 1px;
     font-weight: bolder;
 }
 
-header .logo i{
-    color:black;
+header .logo i {
+    color: black;
 }
 
 header .cabeçalho-link {
     padding-left: 100px;
-    cursor: pointer; 
+    cursor: pointer;
     gap: 3rem;
     display: flex;
     padding-top: 20px;
     font-weight: 500;
     border-radius: 5rem;
-    color:aliceblue;
-  
+    color: aliceblue;
+
 }
 
-header .cabeçalho-link a{
+header .cabeçalho-link a {
     color: rgb(255, 255, 255);
     font-size: 20px;
     border-radius: 4rem;
@@ -60,226 +63,354 @@ header .cabeçalho-link a{
 
 button {
     background-color: #FFCC15;
-    color: rgb(0, 0, 0); 
+    color: rgb(0, 0, 0);
     padding: 5px;
     width: 150px;
     border-radius: 15px;
     font-size: 15px;
     cursor: pointer;
-} /* margem e bordas modificadas, para possuir um formato mais oval, incluindo aqui também a cor preta para as letras*/
+}
 
-    button:hover{
-        background-color: rgb(99, 78, 0);
-        color:#FFCC15;
-    } /* quando o usuario passar o cursor em cima de cada opção, ele mudará de cor*/
+/* margem e bordas modificadas, para possuir um formato mais oval, incluindo aqui também a cor preta para as letras*/
 
-    .logo {/*para pode adicionar a logo do meu site*/
-       
-        height: 100px;
-        width: 60px;
-        padding-top: 49px;
-        padding-left: 720px;
-        padding-right: 220px;
-        display: inline-flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        cursor: pointer;
-    
-    }
+button:hover {
+    background-color: rgb(99, 78, 0);
+    color: #FFCC15;
+}
 
-    .icones {
-        height: 100px;
-        cursor: pointer; 
-        gap: 1rem;
-        display: flex;
-        border-radius: 5rem;
-       
-        }
-        
-        header .icones i,
-        header .icones a {
-    
-            cursor: pointer;
-            height: 4.5rem;
-            width: 4.5rem;
-            text-align: center;
-            font-size: 40px;
-            border-radius: 50%;
-            padding: 5rem, 1.5rem;
-            line-height: 4.5rem;
-            
-    
-        }
-        header .icones i:hover,
-        header .icones a:hover {
-            transform:rotate(360deg);
-            border-radius: 20px;
-            transition: 0.5s all;
-    
-        }
-    
+/* quando o usuario passar o cursor em cima de cada opção, ele mudará de cor*/
+
+.logo {
+    /*para pode adicionar a logo do meu site*/
+
+    height: 100px;
+    width: 60px;
+    padding-top: 49px;
+    padding-left: 720px;
+    padding-right: 220px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.icones {
+    height: 100px;
+    cursor: pointer;
+    gap: 1rem;
+    display: flex;
+    border-radius: 5rem;
+
+}
+
+header .icones i,
+header .icones a {
+
+    cursor: pointer;
+    height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 5rem, 1.5rem;
+    line-height: 4.5rem;
 
 
-.sobre .row .content .icones-container .icones span{
+}
+
+header .icones i:hover,
+header .icones a:hover {
+    transform: rotate(360deg);
+    border-radius: 20px;
+    transition: 0.5s all;
+
+}
+
+
+
+.sobre .row .content .icones-container .icones span {
     font-size: 1.5rem;
-    color:var(black);
-}
-#iconLogin{
-    float:right;
-    color: white;
-    background:#0D0A97;
-}
-#login{
-    display:none;
-    position:fixed;
-    background:white;
-    top:70px;
-    right:15%;
-    width:100px;
-    height:100px;
+    color: var(black);
 }
 
-#backgroundFoto{
+#iconLogin {
+    float: right;
+    color: white;
+    background: #0D0A97;
+}
+
+#login {
+    display: none;
+    position: fixed;
+    background: white;
+    top: 70px;
+    right: 15%;
+    width: 100px;
+    height: 100px;
+}
+
+/* CARDS PAGINA DE CONTATO */
+
+
+.main-content {
+    margin: 50px auto;
+    margin-top: 0;
+    padding: 80px;
+    max-width: 1350px;
+    background: #fff;
+    -webkit-box-shadow: 0 20px 100px -15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 100px -15px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    font-size: 45px;
+    margin: 0 auto 80px auto;
+    margin-top: 150px;
+}
+
+.page-title:after {
+    content: "";
+    width: 110px;
+    height: 4px;
+    background: #FFCC15;
+    display: block;
+    margin: 15px auto 0 auto;
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.card {
+    background: #fff;
+    -webkit-box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.card .card_cover {
+    height: 130px;
+    overflow: hidden;
+    background-color: #27408B;
+}
+
+.card .card_padding {
+    padding: 25px;
+    position: relative;
+    margin-top: -85px;
+
+}
+
+.card .card_image {
+    width: 125px;
+    height: 125px;
+    border-radius: 125px;
+    overflow: hidden;
+    border: 4px solid #FFCC15;
+    margin: 0 auto 15px auto;
+    -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card .card_image img {
+    width: 125px;
+    height: 125px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.card .card_details h3 {
+    font-size: 21px;
+}
+
+.ard .card_details p {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.card .card_social {
+    text-align: center;
+}
+
+.card .card_social a {
+    display: inline-block;
+}
+
+.card .card_social img {
+    width: 33px;
+    margin: 5px 10px;
+}
+
+#backgroundFoto {
     padding-top: 120px;
-    width:100%;
-    height:90%;
+    width: 100%;
+    height: 90%;
     object-fit: cover;
     display: flex;
 }
-    #backgroundFoto img{
-        width:100%;
-    }
-    #backgroundFoto #tituloIndex{
-        position:absolute;
-        margin-top:auto;
-        margin-bottom: auto;
-    }
-#infosIndex{
-    display:flex;
+
+#backgroundFoto img {
+    width: 100%;
+}
+
+#backgroundFoto #tituloIndex {
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#infosIndex {
+    display: flex;
     justify-content: space-between;
-    width:70%;
-    right:0;
-    left:0;
-    margin:auto;
-    margin-top:60px;
+    width: 70%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 60px;
 }
-    #infosIndex section{
-        width:25%;
-        text-align:center;
-    }
-    #botaoSaibaMais{
-        text-align:center;
-        margin:20px;
-    }
-#inscIndex{
-    width:70%;
-    right:0;
-    left:0;
-    margin:auto;
-    margin-top:60px;
-} 
-    #inscIndex img{
-        height:100%;
-        max-width:50%;
-        float:left;
-        object-fit: cover;
-    }
-    #inscIndex div{
-        float:right;
-        width:50%;
-        padding-left:20px;
-    }
-#muleta{
-    clear:both;
+
+#infosIndex section {
+    width: 25%;
+    text-align: center;
 }
-footer{
-    width:100%;
-    height:60px;
-    background-color:#010138;
-    margin-top:60px;
+
+#botaoSaibaMais {
+    text-align: center;
+    margin: 20px;
 }
-#escuro{
-    display:none;
-    background-color:rgb(0, 0, 0, .5);
-    position:fixed;
-    width:100%;
-    height:100%;
-    top:0;
-    right:0;
+
+#inscIndex {
+    width: 70%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 60px;
 }
-#listaEspera{
-    background-color:white;
-    width:50%;
-    height:80%;
-    position:fixed;
-    top:0;right:0;left:0;bottom: 0;
-    margin:auto;
+
+#inscIndex img {
+    height: 100%;
+    max-width: 50%;
+    float: left;
+    object-fit: cover;
+}
+
+#inscIndex div {
+    float: right;
+    width: 50%;
+    padding-left: 20px;
+}
+
+#muleta {
+    clear: both;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #010138;
+    margin-top: 60px;
+}
+
+#escuro {
+    display: none;
+    background-color: rgb(0, 0, 0, .5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+#listaEspera {
+    background-color: white;
+    width: 50%;
+    height: 80%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
 }
 
 /*lista de espera*/
-#escuro{
-    display:none;
-    background-color:rgb(0, 0, 0, .5);
-    position:fixed;
-    width:100%;
-    height:100%;
-    top:0;
-    right:0;
+#escuro {
+    display: none;
+    background-color: rgb(0, 0, 0, .5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
 }
-#listaEspera{
-    background-color:#F3EF45;
-    position:fixed;
-    top:0;right:0;left:0;bottom: 0;
-    margin:auto;
+
+#listaEspera {
+    background-color: #F3EF45;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
 }
+
 #listaEspera #botaoCep {
-    margin-top:32px;
+    margin-top: 32px;
 }
 
 #listaEspera form {
-    padding:30px;
+    padding: 30px;
     background: white;
 }
 
 #listaEspera div {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
-#listaEspera h3  {
-  text-align: center;
-  margin-top:25px;
+
+#listaEspera h3 {
+    text-align: center;
+    margin-top: 25px;
 }
+
 #listaEspera p {
-  text-align: center;
+    text-align: center;
 }
+
 #listaEspera .btn-outline-info {
-  color:#000000;
-  border-color: #000000;
+    color: #000000;
+    border-color: #000000;
 }
+
 #listaEspera a {
-float:right;
-top:10px;
+    float: right;
+    top: 10px;
 }
-#ok{
-  position: fixed;
-  background-color:#ffffff;
-  width:350px;
-  height:180px;
-  right:0;
-  left:0;
-  top:0;
-bottom: 0;
-  margin:auto;
-  text-align:center;
-  padding:30px;
+
+#ok {
+    position: fixed;
+    background-color: #ffffff;
+    width: 350px;
+    height: 180px;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
 
 }
+
 #invalido {
-        text-transform: uppercase;
+    text-transform: uppercase;
 
 }
-#fecharListaEspera{
-    margin-top:20px;
+
+#fecharListaEspera {
+    margin-top: 20px;
     margin-right: 20px;
 }
 
@@ -287,52 +418,50 @@ bottom: 0;
 
 #sobreIndex {
 
-  
 
-  color:#ffffff;
 
-  width:60%;
+    color: #ffffff;
 
-  text-align:justify;
+    width: 60%;
 
-  line-height:30px;
+    text-align: justify;
+
+    line-height: 30px;
 
 }
 
-#backgroundFoto{
+#backgroundFoto {
 
-  display:flex;
+    display: flex;
 
-  justify-content: center;
+    justify-content: center;
 
-  align-items: center;
+    align-items: center;
 
 }
 
 
 
 @media (max-width:768px) {
-           
+
     header .cabeçalho-link {
-        display: list-item;  
-}
-header .icones {
-    display: list-item;
-   
-}
-header .logo {
-    display: auto;
-    max-width: 200px;
-    margin: auto;
-}
-header .backgroundFoto {
-    max-width: 200px;
-    margin: auto;
-}
+        display: list-item;
+    }
+
+    header .icones {
+        display: list-item;
+
+    }
+
+    header .logo {
+        display: auto;
+        max-width: 200px;
+        margin: auto;
+    }
+
+    header .backgroundFoto {
+        max-width: 200px;
+        margin: auto;
+    }
 
 }
-
-
-
-
-
