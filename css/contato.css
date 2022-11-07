@@ -1,0 +1,374 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: #010138;
+    position: absolute;
+}
+
+header .logo {
+    color: black;
+    font-size: 1px;
+    font-weight: bolder;
+
+}
+
+header .logo i {
+    color: black;
+
+}
+
+header div {
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+/* este é o cabeçalho todas as configurações de posições das opções para os usuarios estão aqui*/
+
+header .logo {
+    color: black;
+    font-size: 1px;
+    font-weight: bolder;
+}
+
+header .logo i {
+    color: black;
+}
+
+header .cabeçalho-link {
+    padding-left: 100px;
+    cursor: pointer;
+    gap: 3rem;
+    display: flex;
+    padding-top: 20px;
+    font-weight: 500;
+    border-radius: 5rem;
+    color: aliceblue;
+
+}
+
+header .cabeçalho-link a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 4rem;
+    font-size: 1.7rem;
+}
+
+button {
+    background-color: #FFCC15;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* margem e bordas modificadas, para possuir um formato mais oval, incluindo aqui também a cor preta para as letras*/
+
+button:hover {
+    background-color: rgb(99, 78, 0);
+    color: #FFCC15;
+}
+
+/* quando o usuario passar o cursor em cima de cada opção, ele mudará de cor*/
+
+.logo {
+    /*para pode adicionar a logo do meu site*/
+
+    height: 100px;
+    width: 60px;
+    padding-top: 49px;
+    padding-left: 720px;
+    padding-right: 220px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.icones {
+    height: 100px;
+    cursor: pointer;
+    gap: 1rem;
+    display: flex;
+    border-radius: 5rem;
+
+}
+
+header .icones i,
+header .icones a {
+
+    cursor: pointer;
+    height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 5rem, 1.5rem;
+    line-height: 4.5rem;
+
+
+}
+
+header .icones i:hover,
+header .icones a:hover {
+    transform: rotate(360deg);
+    border-radius: 20px;
+    transition: 0.5s all;
+
+}
+
+
+.sobre .row .content .icones-container .icones span {
+    font-size: 1.5rem;
+    color: var(black);
+}
+
+/* CARDS PAGINA DE CONTATO */
+
+.main-content {
+    margin: 50px auto;
+    margin-top: 0;
+    padding: 80px;
+    max-width: 1350px;
+    background: #fff;
+    -webkit-box-shadow: 0 20px 100px -15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 100px -15px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+    font-size: 45px;
+    margin: 0 auto 80px auto;
+    margin-top: 150px;
+}
+
+.page-title:after {
+    content: "";
+    width: 110px;
+    height: 4px;
+    background: #FFCC15;
+    display: block;
+    margin: 15px auto 0 auto;
+    -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.card {
+    background: #fff;
+    -webkit-box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.card .card_cover {
+    height: 130px;
+    overflow: hidden;
+    background-image: linear-gradient(45deg, #007FBF, #005580, #00AAFF, #002A40, #0198E6);
+}
+
+.card .card_padding {
+    padding: 25px;
+    position: relative;
+    margin-top: -85px;
+
+}
+
+.card .card_image {
+    width: 125px;
+    height: 125px;
+    border-radius: 125px;
+    overflow: hidden;
+    border: 4px solid #FFCC15;
+    margin: 0 auto 15px auto;
+    -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card .card_image img {
+    width: 125px;
+    height: 125px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.card .card_details h3 {
+    font-size: 21px;
+}
+
+.card .card_details p {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.card .card_social {
+    text-align: center;
+}
+
+.card .card_social a {
+    display: inline-block;
+}
+
+.card .card_social img {
+    width: 33px;
+    margin: 5px 10px;
+}
+
+#muleta {
+    clear: both;
+}
+
+@media (max-width:768px) {
+
+    header .cabeçalho-link {
+        display: list-item;
+    }
+
+    header .icones {
+        display: list-item;
+
+    }
+
+    header .logo {
+        display: auto;
+        max-width: 200px;
+        margin: auto;
+    }
+
+    header .backgroundFoto {
+        max-width: 200px;
+        margin: auto;
+    }
+
+}
+
+/*rodapé da pagina*/
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.footer-bottom {
+    background: #0f3e3f;
+    color: white;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a {
+    color: #44bae8;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.footer-menu {
+    float: right;
+
+}
+
+.footer-menu ul {
+    display: flex;
+}
+
+.footer-menu ul li {
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a {
+    color: #cfd2d6;
+    text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+    color: #27bcda;
+}
+
+@media (max-width:500px) {
+    .footer-menu ul {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+.footer-content,
+.footer-image {
+    margin-top: 20px;
+    background-color: gray;
+}
+
+
+.footer-image {
+    width: 35%;
+    margin: auto;
+    display: block;
+    size: 35px;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-content,
+.footer-image {
+    bottom: 0;
+    background-color: #010138;
+    color: #FFF;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    line-height: 100px;
+}

@@ -1,11 +1,10 @@
+$('nav a[href^="#"]').on('click', function (e) {
+	e.preventDefault();
+	const infosIndex = $(this).attr('href');
 
-var botaoLogin = document.querySelector('#iconLogin')
-var fecharLogin = document.querySelector('#fecharLogin')
+	targetOffset = $(infosIndex).offset().top;
 
-botaoLogin.addEventListener('click',function(){
-    $('#login').css('display','block')
-})
-fecharLogin.addEventListener('click',function(){
-    $('#login').css('display','none')
-})
-
+	$('html, body').animate({
+		scrollTop: targetOffset - 120
+	}, 900);
+});
