@@ -1,0 +1,320 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: #010138;
+    position: absolute;
+}
+
+header .logo {
+    color: black;
+    font-size: 1px;
+    font-weight: bolder;
+
+}
+
+header .logo i {
+    color: black;
+
+}
+
+header div {
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+/* este é o cabeçalho todas as configurações de posições das opções para os usuarios estão aqui*/
+
+header .logo {
+    color: black;
+    font-size: 1px;
+    font-weight: bolder;
+}
+
+header .logo i {
+    color: black;
+}
+
+header .cabeçalho-link {
+    padding-left: 100px;
+    cursor: pointer;
+    gap: 3rem;
+    display: flex;
+    padding-top: 20px;
+    font-weight: 500;
+    border-radius: 5rem;
+    color: aliceblue;
+
+}
+
+header .cabeçalho-link a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 4rem;
+    font-size: 1.7rem;
+}
+
+button {
+    background-color: #FFCC15;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* margem e bordas modificadas, para possuir um formato mais oval, incluindo aqui também a cor preta para as letras*/
+
+button:hover {
+    background-color: rgb(99, 78, 0);
+    color: #FFCC15;
+}
+
+/* quando o usuario passar o cursor em cima de cada opção, ele mudará de cor*/
+
+.logo {
+    /*para pode adicionar a logo do meu site*/
+
+    height: 100px;
+    width: 60px;
+    padding-top: 49px;
+    padding-left: 720px;
+    padding-right: 220px;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.icones {
+    height: 100px;
+    cursor: pointer;
+    gap: 1rem;
+    display: flex;
+    border-radius: 5rem;
+
+}
+
+header .icones i,
+header .icones a {
+
+    cursor: pointer;
+    height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 5rem, 1.5rem;
+    line-height: 4.5rem;
+
+
+}
+
+header .icones i:hover,
+header .icones a:hover {
+    transform: rotate(360deg);
+    border-radius: 20px;
+    transition: 0.5s all;
+
+}
+
+
+
+.sobre .row .content .icones-container .icones span {
+    font-size: 1.5rem;
+    color: var(black);
+}
+
+
+
+/* CARDS PAGINA DE CONTATO */
+
+
+.main-content {
+    margin: 50px auto;
+    margin-top: 0;
+    padding: 80px;
+    max-width: 1350px;
+    background: #fff;
+    -webkit-box-shadow: 0 20px 100px -15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 100px -15px rgba(0, 0, 0, 0.1);
+}
+
+#login {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    height: 100vh;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.card {
+
+    background:linear-gradient(#0f3e3f, #88d8c6, #8d8605, #d8d10e);
+
+    padding: 40px;
+
+    border-radius: 2px;
+
+    width: 360px;
+
+}
+
+.card-header {
+
+    padding-bottom: 50px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+}
+
+.card-header::after {
+
+    content: "";
+
+    width: 0px;
+
+    height: 1px;
+
+    background-color: #fff;
+
+    display: block;
+
+    margin-top: -17px;
+
+    margin-left: -5px;
+
+}
+
+.card-content label {
+
+    color: #fff;
+
+    font-size: 24px;
+
+    opacity: 0.8;
+
+}
+
+.card-content-area {
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding:10px 0;
+
+}
+
+.card-content-area input {
+
+    margin-top: 10px;
+
+    padding:0 5px;
+
+    background-color: transparent;
+
+    border:none;
+
+    border-bottom: 1px solid #e1e1e1;
+
+    outline: none;
+
+    color: #fff;
+
+}
+
+.card-footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.card-footer .submit{
+
+    width: 100%;
+
+    height: 40px;
+
+    background-color: #ffffff;
+
+    border:none;
+
+    color:#e1e1e1;
+
+    margin: 10px 0;
+
+}
+
+.card-footer a {
+
+    text-align: center;
+
+    margin-top: 12px;
+
+    font-size: 12px;
+
+    opacity: 0.8;
+
+    color: #fff;
+
+    text-decoration: none;
+
+}
+
+#muleta {
+    clear: both;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #010138;
+    margin-top: 60px;
+}
+
+
+
+@media (max-width:768px) {
+
+    header .cabeçalho-link {
+        display: list-item;
+    }
+
+    header .icones {
+        display: list-item;
+
+    }
+
+    header .logo {
+        display: auto;
+        max-width: 200px;
+        margin: auto;
+    }
+
+    header .backgroundFoto {
+        max-width: 200px;
+        margin: auto;
+    }
+
+}
