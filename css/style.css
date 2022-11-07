@@ -97,6 +97,7 @@ button {
     padding: 5px;
     width: 150px;
     border-radius: 15px;
+    font-family: 'MrRobot', sans-serif; 
     font-size: 15px;
     cursor: pointer;
 }
@@ -215,6 +216,8 @@ header .icones a:hover {
     max-width: 50%;
     float: left;
     object-fit: cover;
+    border-radius: 10px;
+
 }
 
 #inscIndex div {
@@ -262,7 +265,7 @@ header .icones a:hover {
 }
 
 #listaEspera {
-    background-color: #F3EF45;
+    background-color: #8B8989;
     position: fixed;
     top: 0;
     right: 0;
@@ -279,6 +282,11 @@ header .icones a:hover {
     padding: 30px;
     background: white;
 }
+#tituloEspera {
+    font-family: 'Failed Attempt', sans-serif;
+    font-size: 46px;
+    color: #00FFFF
+ }
 
 #listaEspera div {
     margin-bottom: 10px;
@@ -331,25 +339,17 @@ header .icones a:hover {
 /*fim lista de espera*/
 
 #sobreIndex {
-
     position: absolute;
-
     color: #ffffff;
-
     width: 60%;
-
     text-align: justify;
-
     line-height: 30px;
 
 }
 
 #backgroundFoto {
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
 
 }
@@ -408,7 +408,7 @@ header .icones a:hover {
     color: white;
     width: 100vw;
     padding: 20px;
-padding-bottom: 40px;
+    padding-bottom: 40px;
     text-align: center;
 }
 .footer-bottom p{

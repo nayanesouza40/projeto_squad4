@@ -1,4 +1,5 @@
 * {
+    
     padding: 0;
     margin: 0;
 }
@@ -67,6 +68,7 @@ button {
     padding: 5px;
     width: 150px;
     border-radius: 15px;
+    font-family: 'MrRobot', sans-serif; 
     font-size: 15px;
     cursor: pointer;
 }
@@ -137,16 +139,18 @@ header .icones a:hover {
 /* CARDS PAGINA DE CONTATO */
 
 .main-content {
+    
     margin: 50px auto;
     margin-top: 0;
     padding: 80px;
     max-width: 1350px;
-    background: #fff;
+    background: #4F4F4F;
     -webkit-box-shadow: 0 20px 100px -15px rgba(0, 0, 0, 0.1);
     box-shadow: 0 20px 100px -15px rgba(0, 0, 0, 0.1);
 }
 
 .page-title {
+    color: black;
     font-size: 45px;
     margin: 0 auto 80px auto;
     margin-top: 150px;
