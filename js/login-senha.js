@@ -13,7 +13,7 @@ function validarSenha() {
         alert('Digite sua senha')
       } else {
         alert('Login efetuado!')
-        location.reload()
+        location.reload(index.html)
       }
 	}
 
