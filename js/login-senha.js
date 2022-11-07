@@ -13,7 +13,7 @@ function validarSenha() {
         alert('Digite sua senha')
       } else {
         alert('Login efetuado!')
-        reload()
+        location.reload('https://nayanesouza40.github.io/projeto_squad4/index.html')
       }
 	}
 
